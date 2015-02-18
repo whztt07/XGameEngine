@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/2/18 19:43:55。
+     1>项目“C:\Projects\XGameEngine\Dependencies\DXUT\DXUT.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Projects\XGameEngine\Dependencies\DirectX\Include /IC:\Projects\XGameEngine\Dependencies\XGameEngine /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DXUT.cpp DXUTenum.cpp DXUTgui.cpp DXUTMesh.cpp DXUTmisc.cpp DXUTRes.cpp DXUTSettingsDlg.cpp DXUTsound.cpp
+         DXUTsound.cpp
+         DXUTSettingsDlg.cpp
+         DXUTRes.cpp
+         DXUTmisc.cpp
+         DXUTMesh.cpp
+         DXUTgui.cpp
+         DXUTenum.cpp
+         DXUT.cpp
+         正在生成代码...
+       Lib:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Projects\XGameEngine\Debug\DXUT.lib" /LIBPATH:C:\Projects\XGameEngine\Dependencies\DirectX\lib\x86 /NOLOGO Debug\DXUT.obj
+         Debug\DXUTenum.obj
+         Debug\DXUTgui.obj
+         Debug\DXUTMesh.obj
+         Debug\DXUTmisc.obj
+         Debug\DXUTRes.obj
+         Debug\DXUTSettingsDlg.obj
+         Debug\DXUTsound.obj
+         DXUT.vcxproj -> C:\Projects\XGameEngine\Debug\DXUT.lib
+     1>已完成生成项目“C:\Projects\XGameEngine\Dependencies\DXUT\DXUT.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.15

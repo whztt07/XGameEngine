@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015/2/18 19:38:12。
+     1>项目“C:\Projects\XGameEngine\XGameEngine\XGameEngine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Projects\XGameEngine\DXUT /IC:\Projects\XGameEngine\Dependencies\DirectX\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XGraphics.cpp XInput.cpp XSystem.cpp
+         XSystem.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“XSystem.cpp”: No such file or directory
+         XInput.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“XInput.cpp”: No such file or directory
+         XGraphics.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“XGraphics.cpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Projects\XGameEngine\XGameEngine\XGameEngine.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.74
