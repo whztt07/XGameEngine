@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectX\Include;$(SolutionDir)Dependencies\DXUT;$(SolutionDir)Dependencies\XGameEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectX\Include;$(SolutionDir)Dependencies\DXUT;$(SolutionDir)XGameEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -68,18 +68,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Global.h" />
-    <ClInclude Include="WinMain.h" />
+    <ClInclude Include="Alpha.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dependencies\DXUT\DXUT.vcxproj">
-      <Project>{fe02bcb2-b3e1-40be-bf60-d34179fe951b}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Dependencies\XGameEngine\XGameEngine.vcxproj">
-      <Project>{2fcae059-e931-40a7-b442-707a2617962e}</Project>
+    <ProjectReference Include="..\XGameEngine\XGameEngine.vcxproj">
+      <Project>{0637c917-3439-420c-a06e-33b71964a277}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

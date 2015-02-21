@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2FCAE059-E931-40A7-B442-707A2617962E}</ProjectGuid>
+    <ProjectGuid>{0637C917-3439-420C-A06E-33B71964A277}</ProjectGuid>
     <RootNamespace>XGameEngine</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -38,13 +38,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)DXUT;$(SolutionDir)Dependencies\DirectX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectX\include;$(SolutionDir)Dependencies\DXUT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -56,7 +55,6 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -65,15 +63,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="XApplication.h" />
+    <ClInclude Include="XCamera.h" />
+    <ClInclude Include="XFont.h" />
     <ClInclude Include="XGlobal.h" />
     <ClInclude Include="XGraphics.h" />
     <ClInclude Include="XInput.h" />
-    <ClInclude Include="XSystem.h" />
+    <ClInclude Include="XLight.h" />
+    <ClInclude Include="XMaterial.h" />
+    <ClInclude Include="XMesh.h" />
+    <ClInclude Include="XObject.h" />
+    <ClInclude Include="XStateManager.h" />
+    <ClInclude Include="XTexture.h" />
+    <ClInclude Include="XVertexBuffer.h" />
+    <ClInclude Include="XWorldPosition.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="XApplication.cpp" />
+    <ClCompile Include="XCamera.cpp" />
+    <ClCompile Include="XFont.cpp" />
+    <ClCompile Include="XMesh.cpp" />
+    <ClCompile Include="XObject.cpp" />
+    <ClCompile Include="XVertexBuffer.cpp" />
     <ClCompile Include="XGraphics.cpp" />
     <ClCompile Include="XInput.cpp" />
-    <ClCompile Include="XSystem.cpp" />
+    <ClCompile Include="XLight.cpp" />
+    <ClCompile Include="XMaterial.cpp" />
+    <ClCompile Include="XStateManager.cpp" />
+    <ClCompile Include="XTexture.cpp" />
+    <ClCompile Include="XWorldPosition.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
