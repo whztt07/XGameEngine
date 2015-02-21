@@ -1,5 +1,15 @@
-﻿生成启动时间为 2014/6/22 10:42:20。
+﻿生成启动时间为 2015/2/21 21:20:49。
+     1>项目“C:\Projects\XGameEngine\Billboard\Billboard.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Software\Microsoft DirectX SDK (June 2010)\Include" /IC:\Projects\XGameEngine\XGameEngine /IC:\Projects\XGameEngine\DXUT /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+         c:\software\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\XGameEngine\Debug\Billboard.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Software\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Projects\XGameEngine\Debug\Billboard.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\XGameEngine\Debug\Billboard.lib" /MACHINE:X86 Debug\Main.obj
+         C:\Projects\XGameEngine\Debug\XGameEngine.lib
+         Billboard.vcxproj -> C:\Projects\XGameEngine\Debug\Billboard.exe
+     1>已完成生成项目“C:\Projects\XGameEngine\Billboard\Billboard.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.01
+已用时间 00:00:01.75

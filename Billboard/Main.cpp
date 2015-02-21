@@ -1,16 +1,21 @@
-#include "Global.h"
+#include "XApplication.h"
+#include "XGraphics.h"
+#include "XWorldPosition.h"
+#include "XCamera.h"
+#include "XTexture.h"
+#include "XVertexBuffer.h"
 
-class cApp : public cApplication
+class cApp : public Xge::Application
 {
 private:
-	cGraphics	m_Graphics;
-	cCamera		m_Camera;
+	Xge::Graphics	m_Graphics;
+	Xge::Camera		m_Camera;
 
-	cVertexBuffer	m_Billboard;
-	cTexture		m_BillboardTex;
+	Xge::VertexBuffer	m_Billboard;
+	Xge::Texture		m_BillboardTex;
 
-	cVertexBuffer	m_Floor;
-	cTexture		m_FloorTex;
+	Xge::VertexBuffer	m_Floor;
+	Xge::Texture		m_FloorTex;
 
 public:
 	cApp();
@@ -49,10 +54,10 @@ BOOL cApp::Init()
 		{  40.0f,  0.0f, 0.0f, 1.0f, 1.0f }
 	};
 	m_Billboard.Create(&m_Graphics, 4, FVF3D, sizeof(s3DVertex));
-	XV(m_Billboard.Set(0, 4, BillboardVerts));
+	m_Billboard.Set(0, 4, BillboardVerts);
 
 	// Transparent对应的颜色Alpha值会被置为0
-	XV(m_BillboardTex.Load(&m_Graphics, TEXT(".\\Data\\Billboard.bmp"), D3DCOLOR_RGBA(0, 0, 0, 255)));
+	m_BillboardTex.Load(&m_Graphics, TEXT(".\\Data\\Billboard.bmp"), D3DCOLOR_RGBA(0, 0, 0, 255));
 
 	s3DVertex FloorVerts[4] = 
 	{
@@ -62,9 +67,9 @@ BOOL cApp::Init()
 		{  100.0f, 0.0f, -100.0f, 1.0f, 1.0f }
 	};
 	m_Floor.Create(&m_Graphics, sizeof(FloorVerts), FVF3D, sizeof(s3DVertex));
-	XV(m_Floor.Set(0, sizeof(FloorVerts), FloorVerts));
+	m_Floor.Set(0, sizeof(FloorVerts), FloorVerts);
 	
-	XV(m_FloorTex.Load(&m_Graphics, TEXT(".\\Data\\Floor.bmp")));
+	m_FloorTex.Load(&m_Graphics, TEXT(".\\Data\\Floor.bmp"));
 	
 	// 展示透明度在0x01以上的颜色
 	m_Graphics.GetDeviceCOM()->SetRenderState(D3DRS_ALPHAREF, 0x01);
@@ -86,14 +91,14 @@ BOOL cApp::Frame()
 	{
 		m_Graphics.GetDeviceCOM()->SetTexture(0, m_FloorTex.GetTextureCOM());
 
-		cWorldPosition WorldPosition;
-		m_Graphics.SetWorldPosition(&WorldPosition);
+		Xge::WorldPosition worldPosition;
+		m_Graphics.SetWorldPosition(&worldPosition);
 		m_Floor.Render(0, 2, D3DPT_TRIANGLESTRIP);
 
 		// 开启Alpha测试以屏蔽透明色
 		m_Graphics.GetDeviceCOM()->SetRenderState(D3DRS_ALPHATESTENABLE, TRUE);
-		WorldPosition.EnableBillboard(TRUE);
-		m_Graphics.SetWorldPosition(&WorldPosition);
+		worldPosition.EnableBillboard(TRUE);
+		m_Graphics.SetWorldPosition(&worldPosition);
 		m_Graphics.GetDeviceCOM()->SetRenderState(D3DRS_ALPHABLENDENABLE, FALSE);
 		
 		m_Graphics.GetDeviceCOM()->SetTexture(0, m_BillboardTex.GetTextureCOM());

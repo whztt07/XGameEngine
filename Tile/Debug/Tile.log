@@ -1,5 +1,112 @@
-﻿生成启动时间为 2014/6/22 10:42:18。
+﻿生成启动时间为 2015/2/21 21:16:04。
+     1>项目“C:\Projects\XGameEngine\Tile\Tile.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Software\Microsoft DirectX SDK (June 2010)\Include" /IC:\Projects\XGameEngine\XGameEngine /IC:\Projects\XGameEngine\DXUT /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Map.cpp Tile.cpp WinMain.cpp
+         WinMain.cpp
+         c:\software\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\projects\xgameengine\tile\tile.h(7): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(10): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(20): error C2061: 语法错误: 标识符“cGraphics”
+     1>c:\projects\xgameengine\tile\winmain.h(4): error C2504: “cApplication”: 未定义基类
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C2146: 语法错误: 缺少“;”(在标识符“m_Graphics”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C2146: 语法错误: 缺少“;”(在标识符“m_Input”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C2146: 语法错误: 缺少“;”(在标识符“m_Keyboard”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.cpp(8): error C2065: “m_Width”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(9): error C2065: “m_Height”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(10): error C2065: “m_Class”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(11): error C2065: “m_Caption”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(17): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(17): error C2228: “.Init”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\projects\xgameengine\tile\winmain.cpp(18): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(18): error C2228: “.SetMode”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\projects\xgameengine\tile\winmain.cpp(18): error C3861: “GethWnd”: 找不到标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(21): error C2065: “m_Input”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(21): error C2228: “.Init”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\projects\xgameengine\tile\winmain.cpp(21): error C3861: “GethWnd”: 找不到标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(21): error C3861: “GethInst”: 找不到标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(22): error C2065: “m_Keyboard”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(22): error C2228: “.Create”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\projects\xgameengine\tile\winmain.cpp(22): error C2065: “m_Input”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(22): error C2065: “KEYBOARD”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\winmain.cpp(28): error C2065: “m_Graphics”: 未声明的标识符
+     1>c1xx : fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         Tile.cpp
+         c:\software\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\projects\xgameengine\tile\tile.h(7): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(10): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(20): error C2061: 语法错误: 标识符“cGraphics”
+     1>c:\projects\xgameengine\tile\winmain.h(4): error C2504: “cApplication”: 未定义基类
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C2146: 语法错误: 缺少“;”(在标识符“m_Graphics”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C2146: 语法错误: 缺少“;”(在标识符“m_Input”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C2146: 语法错误: 缺少“;”(在标识符“m_Keyboard”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.cpp(5): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(7): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(16): error C2065: “cGraphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(16): error C2065: “Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(16): error C2062: 意外的类型“long”
+     1>c:\projects\xgameengine\tile\tile.cpp(17): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>c:\projects\xgameengine\tile\tile.cpp(17): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>c:\projects\xgameengine\tile\tile.cpp(43): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(48): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(48): error C2228: “.Free”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(50): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(50): error C2541: “delete”: 不能删除不是指针的对象
+     1>c:\projects\xgameengine\tile\tile.cpp(51): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(68): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(74): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(74): error C2228: “.Load”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(74): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(80): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(80): error C2228: “.GetWidth”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(87): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(87): error C2228: “.GetHeight”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(94): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(94): error C2228: “.GetWidth”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(102): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(106): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(106): error C2228: “.Free”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(132): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(136): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(136): error C2228: “.GetHeight”的左边必须有类/结构/联合
+     1>c:\projects\xgameengine\tile\tile.cpp(142): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(144): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(144): error C2227: “->EnableAlphaTesting”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\projects\xgameengine\tile\tile.cpp(154): error C2065: “m_Graphics”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(156): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(163): error C2065: “m_Textures”: 未声明的标识符
+     1>c:\projects\xgameengine\tile\tile.cpp(163): error C2228: “.Blit”的左边必须有类/结构/联合
+         Map.cpp
+         c:\software\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\projects\xgameengine\tile\tile.h(7): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(10): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>c:\projects\xgameengine\tile\tile.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\tile.h(20): error C2061: 语法错误: 标识符“cGraphics”
+     1>c:\projects\xgameengine\tile\winmain.h(4): error C2504: “cApplication”: 未定义基类
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C2146: 语法错误: 缺少“;”(在标识符“m_Graphics”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C2146: 语法错误: 缺少“;”(在标识符“m_Input”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C2146: 语法错误: 缺少“;”(在标识符“m_Keyboard”的前面)
+     1>c:\projects\xgameengine\tile\winmain.h(12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+         正在生成代码...
+     1>已完成生成项目“C:\Projects\XGameEngine\Tile\Tile.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:00.01
+已用时间 00:00:03.93

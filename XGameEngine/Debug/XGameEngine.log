@@ -1,15 +1,37 @@
-﻿生成启动时间为 2015/2/21 20:32:16。
+﻿生成启动时间为 2015/2/21 21:20:36。
      1>项目“C:\Projects\XGameEngine\XGameEngine\XGameEngine.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Projects\XGameEngine\Dependencies\DirectX\include /IC:\Projects\XGameEngine\Dependencies\DXUT /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XApplication.cpp XGraphics.cpp XInput.cpp
-         XGraphics.cpp
-         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>c:\projects\xgameengine\xgameengine\xgraphics.cpp(17): warning C4309: “=”: 截断常量值
+         C:\Software\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Projects\XGameEngine\Dependencies\DirectX\include /IC:\Projects\XGameEngine\Dependencies\DXUT /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XApplication.cpp XCamera.cpp XFont.cpp XGraphics.cpp XInput.cpp XLight.cpp XMaterial.cpp XMesh.cpp XObject.cpp XStateManager.cpp XTexture.cpp XVertexBuffer.cpp XWorldPosition.cpp
          XApplication.cpp
          c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          正在生成代码...
-         正在跳过...(未检测到相关更改)
+         正在编译...
+         XWorldPosition.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XVertexBuffer.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XTexture.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XStateManager.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XObject.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XMesh.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XMaterial.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XLight.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          XInput.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XGraphics.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\projects\xgameengine\xgameengine\xgraphics.cpp(17): warning C4309: “=”: 截断常量值
+         XFont.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         XCamera.cpp
+         c:\projects\xgameengine\dependencies\directx\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         正在生成代码...
        Lib:
          C:\Software\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Projects\XGameEngine\Debug\XGameEngine.lib" /NOLOGO Debug\XApplication.obj
          Debug\XCamera.obj
@@ -29,4 +51,4 @@
 
 生成成功。
 
-已用时间 00:00:02.93
+已用时间 00:00:12.73
